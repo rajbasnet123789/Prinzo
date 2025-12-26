@@ -1,4 +1,19 @@
-#Prinzo: QR-Based Automated Printing Infrastructure for Public and Retail Services
+# Prinzo: QR-Based Automated Printing Infrastructure for Public and Retail Services 
+
+<p align="center">
+  <img src="./assets/overview_agentic_rag.svg" alt="Agentic RAG Overview">
+  <br>
+  <strong>Overview of Agentic RAG</strong>
+</p>
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./print-document-android-phone-featured.webp" alt="GitHub stars">
+
+</p>
+
+
+
 Introduction to Problem Statement and Motivation
 Prinzo is an automation-centric printing infrastructure designed to eliminate the point of insertion of manual, error-prone, and privacy-disclosing printing processing workflows, common in retail print shops, servicing centres of government, and offices in institutional settings. The need for the development of Prinzo stems from the observation that printing, despite being in many instances used as an essential service, has been stagnant in technology service in relation to contemporary digital service delivery paradigms. The current prevailing printing procedures are characterised by a high use of verbal instructions, exchange of personal contact information, messaging platforms by third parties and ad-hoc printer configuration. These ingrained practises promote inefficiencies, unmanaged document storage, inconsistent quality of service and poor scalability. Prinzo reconceptualises printing, as a structured, rules driven and automated service pipeline thus facilitating production of services at hand faster and increased transparency of operations.
 Core Idea and Overview of the Solution
