@@ -42,6 +42,12 @@ This bifurcated design retains simplicity, modularity and scalability whilst ret
 Vendor‑Side Technical Flow
 From the vendor's perspective, Prinzo is a major automation control centripetal. The vendor sets up printers, creates pricing rules, and creates QR codes that act as public service entry points. Once set up, the vendor is no longer responsible for talking to customers manually or re-configuring printer settings on a repeated basis. The system detects the printer capabilities such as the ability to colour, pages per side, double sided pages and so on. These detected attributes are saved as part of the service configuration, and have a direct bearing on the options given to customers.
 
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./preview.png" alt="GitHub stars">
+
+</p>
 
 This flowchart should be equivalent to:
     1. Vendor authentication,
