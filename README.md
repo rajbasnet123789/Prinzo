@@ -20,11 +20,25 @@ Prinzo is an automation-centric printing infrastructure designed to eliminate th
 </p>
 Core Idea and Overview of the Solution
 Prinzo presents a QR based, contactless interaction model that allows for a bridge between the customer and vendor using an automated backend system. Rather than exchanging telephone numbers or transferring files via external platforms, customers just scan a QR code displayed at the point of service; actions which catalyse the establishment of a temporary service session through which documents can be uploaded, validated, configured, billed and printed. The aspect of the platform that is focused on automation over interface complexity makes the workflow deterministic, reproducible and something that can be assessed within the confines of a hackathon environment.
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./1_RuuVxqtoy_nY_lum4enRnA.png" alt="GitHub stars">
+
+</p>
+
 System Point of View & Design Philosophies
 The system is purposely architecturally based on two stand-alone, but synchronised, technical views: 
     1. Automation and execution logic of vendors, 
     2. Interaction/Constrained Configuration Logic on the Customer side.
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./Figure_10.C8edWi-O_1vGWHF.webp" alt="GitHub stars">
+
+</p>
 This bifurcated design retains simplicity, modularity and scalability whilst retaining enough simplicity of design for implementation within a Hackathon timeframe.
+
 Vendor‑Side Technical Flow
 From the vendor's perspective, Prinzo is a major automation control centripetal. The vendor sets up printers, creates pricing rules, and creates QR codes that act as public service entry points. Once set up, the vendor is no longer responsible for talking to customers manually or re-configuring printer settings on a repeated basis. The system detects the printer capabilities such as the ability to colour, pages per side, double sided pages and so on. These detected attributes are saved as part of the service configuration, and have a direct bearing on the options given to customers.
 
