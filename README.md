@@ -56,7 +56,15 @@ This flowchart should be equivalent to:
     4. QR code generation,
     5. Order reception approval of the print and execute.
 Technical Flow at Customer-Side
+
 In the customer's eyes, the system is inherently minimal and ephemeral. The customer scans the QR code, uploads a document, automatically selects valid print options, makes the payment and collects the printed item. The customer is never invited to create an account with the organisation or provide personal contact details. All of the configuration options shown to the customer are dynamically restricted, as defined by the printer's capabilities, so the customer cannot make invalid or unsupported requests.
+
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./flow_chart_showing_qr_code_technology_mobile_banking_for_convenient_and_secure_online_payments_fin_ss_slide01.jpg" alt="GitHub stars">
+
+</p>
 
 
 The provided flowchart showcases: 
@@ -68,14 +76,36 @@ The provided flowchart showcases:
     6. Payment confirmation,
     7. Order completion.
 Workflow Automation at the End-to-End Level
+
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./closed-loop-automation-overview-arch.png" alt="GitHub stars">
+
+</p>
+
 Prinzo is a closed loop automated system. Every action of a user results in the execution of a predefined process in the backend, and every change of process is actually verified using system logic and not human interpretation. The workflow ensures that once the payment is confirmed that the vendor receives a job that is ready to print which does not need any further clarification and configuration.
 
 End to end Workflow Automation Diagram, often referred to as Data Flow and Privacy-Preserving Design decomposes the selection of encryption algorithms and ciphering choices while designing system. Data Flow and Privacy-Preserving Design (often abbreviated Data Flow and Privacy-Design) breaks down the process of choosing encryption algorithms and ciphering options when designing a system. A salient technical attribute of Prinzo is a transient form of handling data. Documents uploaded by customers will only be saved on a temporary basis for processing/printing. On completion of the print job, the system automatically purges the document from the memory or temporary storage. This approach has the advantage of limiting exposure of data and makes the platform suitable for use in environments where privacy and data governance is paramount.
 Data Flow Representation
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./delete_data_flow.png" alt="GitHub stars">
+
+</p>
+
 
 This DFD should illustrate: - Customer's Device to data flow to backend, till temporary processing and validation-Printer output flow Automatic data deletion after execution said
 
 For the Hackathon, the implementation of Prinzo takes the form of a single-file application (app.py) in Python which entails the consolidation of frontend and backend logic. This methodology allows for quick prototyping and enhanced evaluation, and an unmistakable demonstration of automation logic. 
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./monolithic-microfront.svg" alt="GitHub stars">
+
+</p>
+
 The implementation of Round-1 is provided to demonstrate: 
 - QR‑based service entry 
 - Simulation of vendor dashboard 
@@ -95,7 +125,15 @@ While the basic system is implemented in Round - 1 of the project, a number of e
     6. Improved security control and auditing, 
     7. Performance optimisation for a high-volume usage. 
 These enhancements build directly on the foundation of Round-1 and are an example of scalability, extensibility and long-term impact. 
-Applicability and Impact 
+Applicability and Impact
+
+
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./infographics_04_1_3f2a91ed0d.jpg" alt="GitHub stars">
+
+</p>
 
 Prinzo is applicable in a number of real-world situations, such as: 
     1. Retail printing services,
