@@ -3,7 +3,7 @@
 <br><br>
 <p align="center">
   <!-- GitHub Stats -->
-  <img src="./print-document-android-phone-featured.webp" alt="GitHub stars">
+  <img src="./Touch2Print-Service-Architecture.png" alt="GitHub stars">
 
 </p>
 
