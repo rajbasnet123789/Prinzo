@@ -1,10 +1,5 @@
 # Prinzo: QR-Based Automated Printing Infrastructure for Public and Retail Services 
 
-<p align="center">
-  <img src="./assets/overview_agentic_rag.svg" alt="Agentic RAG Overview">
-  <br>
-  <strong>Overview of Agentic RAG</strong>
-</p>
 <br><br>
 <p align="center">
   <!-- GitHub Stats -->
