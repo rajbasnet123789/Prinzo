@@ -11,6 +11,13 @@
 
 Introduction to Problem Statement and Motivation
 Prinzo is an automation-centric printing infrastructure designed to eliminate the point of insertion of manual, error-prone, and privacy-disclosing printing processing workflows, common in retail print shops, servicing centres of government, and offices in institutional settings. The need for the development of Prinzo stems from the observation that printing, despite being in many instances used as an essential service, has been stagnant in technology service in relation to contemporary digital service delivery paradigms. The current prevailing printing procedures are characterised by a high use of verbal instructions, exchange of personal contact information, messaging platforms by third parties and ad-hoc printer configuration. These ingrained practises promote inefficiencies, unmanaged document storage, inconsistent quality of service and poor scalability. Prinzo reconceptualises printing, as a structured, rules driven and automated service pipeline thus facilitating production of services at hand faster and increased transparency of operations.
+
+<br><br>
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="./Features_That_Matter_Inside_the_Print_Workflow_Automation_Software_ba49994b81.jpg" alt="GitHub stars">
+
+</p>
 Core Idea and Overview of the Solution
 Prinzo presents a QR based, contactless interaction model that allows for a bridge between the customer and vendor using an automated backend system. Rather than exchanging telephone numbers or transferring files via external platforms, customers just scan a QR code displayed at the point of service; actions which catalyse the establishment of a temporary service session through which documents can be uploaded, validated, configured, billed and printed. The aspect of the platform that is focused on automation over interface complexity makes the workflow deterministic, reproducible and something that can be assessed within the confines of a hackathon environment.
 System Point of View & Design Philosophies
